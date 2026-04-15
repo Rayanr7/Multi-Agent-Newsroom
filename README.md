@@ -6,11 +6,11 @@ Responsibilities:
 Receive news articles from the Reporter Agent
 Analyze news content (headline + body)
 Evaluate credibility based on:
-Trusted vs untrusted sources
-Presence of misinformation entities
-Vague or unreliable claims
-Assign a credibility score (0–100)
-Flag suspicious claims and sources
+    Trusted vs untrusted sources
+    Presence of misinformation entities
+    Vague or unreliable claims
+    Assign a credibility score (0–100)
+    Flag suspicious claims and sources
 Return a final verdict:
     PASS (credible)
     WARN (partially reliable)
