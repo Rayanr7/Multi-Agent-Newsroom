@@ -1,0 +1,319 @@
+[
+    {
+        "run_id": "63324799-3f3b-4782-ae9b-9c792dbfd739",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T06:52:10.695956",
+        "input": {},
+        "output": {
+            "headline": "Dummy News",
+            "body": "Some news"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "63324799-3f3b-4782-ae9b-9c792dbfd739",
+        "agent_name": "FACT_CHECKER",
+        "timestamp": "2026-04-16T06:52:10.698703",
+        "input": {
+            "headline": "Dummy News",
+            "body": "Some news"
+        },
+        "output": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "63324799-3f3b-4782-ae9b-9c792dbfd739",
+        "agent_name": "EDITOR",
+        "timestamp": "2026-04-16T06:52:10.721256",
+        "input": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "output": {
+            "decision": "APPROVED"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "63324799-3f3b-4782-ae9b-9c792dbfd739",
+        "agent_name": "PUBLISHER",
+        "timestamp": "2026-04-16T06:52:10.736770",
+        "input": {
+            "decision": "APPROVED"
+        },
+        "output": {
+            "published": true
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "2d32c0ac-8b5c-4033-a699-84b9c7b5b710",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T06:53:05.210011",
+        "input": {},
+        "output": {
+            "headline": "Dummy News",
+            "body": "Some news"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "2d32c0ac-8b5c-4033-a699-84b9c7b5b710",
+        "agent_name": "FACT_CHECKER",
+        "timestamp": "2026-04-16T06:53:05.273171",
+        "input": {
+            "headline": "Dummy News",
+            "body": "Some news"
+        },
+        "output": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "2d32c0ac-8b5c-4033-a699-84b9c7b5b710",
+        "agent_name": "EDITOR",
+        "timestamp": "2026-04-16T06:53:05.324383",
+        "input": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "output": {
+            "decision": "APPROVED"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "2d32c0ac-8b5c-4033-a699-84b9c7b5b710",
+        "agent_name": "PUBLISHER",
+        "timestamp": "2026-04-16T06:53:05.340445",
+        "input": {
+            "decision": "APPROVED"
+        },
+        "output": {
+            "published": true
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "09e01b40-a616-477d-94eb-6136c6a62c77",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T07:07:52.039652",
+        "input": {},
+        "output": {
+            "headline": "Dummy headline",
+            "body": "This is a test news article.",
+            "claimed_sources": [
+                "Reuters"
+            ],
+            "named_entities": [
+                "India"
+            ]
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "2d724347-f70a-4c32-9e38-a7bfad4e6856",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T07:09:15.520920",
+        "input": {},
+        "output": {
+            "headline": "Dummy headline",
+            "body": "This is a test news article.",
+            "claimed_sources": [
+                "Reuters"
+            ],
+            "named_entities": [
+                "India"
+            ]
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "7b8a505d-4d3a-4ff6-ac31-a36fdb0bf602",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T07:12:47.145772",
+        "input": {},
+        "output": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "7b8a505d-4d3a-4ff6-ac31-a36fdb0bf602",
+        "agent_name": "FACT_CHECKER",
+        "timestamp": "2026-04-16T07:12:47.160922",
+        "input": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "output": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "7b8a505d-4d3a-4ff6-ac31-a36fdb0bf602",
+        "agent_name": "EDITOR",
+        "timestamp": "2026-04-16T07:12:47.178331",
+        "input": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "output": {
+            "decision": "APPROVED"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "7b8a505d-4d3a-4ff6-ac31-a36fdb0bf602",
+        "agent_name": "PUBLISHER",
+        "timestamp": "2026-04-16T07:12:47.196923",
+        "input": {
+            "decision": "APPROVED"
+        },
+        "output": {
+            "published": true
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "d8b24177-bc0e-4860-ab12-5320c142731a",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T07:16:59.828040",
+        "input": {},
+        "output": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "d8b24177-bc0e-4860-ab12-5320c142731a",
+        "agent_name": "FACT_CHECKER",
+        "timestamp": "2026-04-16T07:16:59.829765",
+        "input": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "output": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "d8b24177-bc0e-4860-ab12-5320c142731a",
+        "agent_name": "EDITOR",
+        "timestamp": "2026-04-16T07:16:59.845836",
+        "input": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "output": {
+            "decision": "APPROVED"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "run_id": "d8b24177-bc0e-4860-ab12-5320c142731a",
+        "agent_name": "PUBLISHER",
+        "timestamp": "2026-04-16T07:16:59.861657",
+        "input": {
+            "decision": "APPROVED"
+        },
+        "output": {
+            "published": true
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "type": "STATE_TRANSITION",
+        "from": "IDLE",
+        "to": "REPORTING",
+        "timestamp": "2026-04-16T07:22:07.963606"
+    },
+    {
+        "run_id": "c6625767-358d-4c15-ab4f-7183ecbe07ca",
+        "agent_name": "REPORTER",
+        "timestamp": "2026-04-16T07:22:07.965463",
+        "input": {
+            "topic": "climate change",
+            "seed": 42
+        },
+        "output": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "type": "STATE_TRANSITION",
+        "from": "REPORTING",
+        "to": "FACT_CHECKING",
+        "timestamp": "2026-04-16T07:22:07.981753"
+    },
+    {
+        "run_id": "c6625767-358d-4c15-ab4f-7183ecbe07ca",
+        "agent_name": "FACT_CHECKER",
+        "timestamp": "2026-04-16T07:22:08.000061",
+        "input": {
+            "headline": "Dummy News",
+            "body": "Some news content"
+        },
+        "output": {
+            "score": 80,
+            "verdict": "PASS"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "type": "STATE_TRANSITION",
+        "from": "FACT_CHECKING",
+        "to": "EDITING",
+        "timestamp": "2026-04-16T07:22:08.020190"
+    },
+    {
+        "run_id": "c6625767-358d-4c15-ab4f-7183ecbe07ca",
+        "agent_name": "EDITOR",
+        "timestamp": "2026-04-16T07:22:08.039402",
+        "input": {
+            "reporter_output": {
+                "headline": "Dummy News",
+                "body": "Some news content"
+            },
+            "fact_checker_output": {
+                "score": 80,
+                "verdict": "PASS"
+            }
+        },
+        "output": {
+            "decision": "APPROVED"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "type": "STATE_TRANSITION",
+        "from": "EDITING",
+        "to": "PUBLISHED",
+        "timestamp": "2026-04-16T07:22:08.057322"
+    },
+    {
+        "run_id": "c6625767-358d-4c15-ab4f-7183ecbe07ca",
+        "agent_name": "PUBLISHER",
+        "timestamp": "2026-04-16T07:22:08.075168",
+        "input": {
+            "decision": "APPROVED"
+        },
+        "output": {
+            "published": true
+        },
+        "status": "SUCCESS"
+    }
+]
