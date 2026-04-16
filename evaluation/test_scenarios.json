@@ -1,0 +1,12 @@
+[
+  {"id": 1, "topic": "climate change", "seed": 1, "expected_verdict": "PASS", "type": "clean"},
+  {"id": 2, "topic": "election results", "seed": 2, "expected_verdict": "PASS", "type": "clean"},
+  {"id": 3, "topic": "AI in healthcare", "seed": 3, "expected_verdict": "PASS", "type": "clean"},
+  {"id": 4, "topic": "economy inflation", "seed": 4, "expected_verdict": "WARN", "type": "vague_sources"},
+  {"id": 5, "topic": "sports scandal", "seed": 5, "expected_verdict": "WARN", "type": "vague_sources"},
+  {"id": 6, "topic": "covid vaccines", "seed": 6, "expected_verdict": "WARN", "type": "vague_sources"},
+  {"id": 7, "topic": "government corruption", "seed": 7, "expected_verdict": "FAIL", "type": "misinformation"},
+  {"id": 8, "topic": "celebrity death hoax", "seed": 8, "expected_verdict": "FAIL", "type": "misinformation"},
+  {"id": 9, "topic": "tech layoffs", "seed": 9, "expected_verdict": "PASS", "type": "edge_case"},
+  {"id": 10, "topic": "climate hoax conspiracy", "seed": 10, "expected_verdict": "FAIL", "type": "edge_case"}
+]
